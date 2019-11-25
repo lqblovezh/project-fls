@@ -1,0 +1,29 @@
+@import './variable'
+
+setFontSize(num)
+  .f{num}
+    font-size 1px * num !important
+setColor(name, ucolor, isBd = false)
+  .c_{name}
+    color ucolor
+  .c_{name}_bg
+    background ucolor
+setFontSize(0)
+for num in 12...37
+  setFontSize(num)
+for num in 0...16
+  setColor(num, #111 * num)
+setColor(f, #fff)
+setColor(f5, #f5f5f5)
+setColor(e0, #e0e0e0)
+setColor(price, #ff5d16)
+setColor(error, #f1403c)
+setColor(theme, $main-color)
+setColor(og, #c1a161)
+setColor(og_2, #ff8d00)
+setColor(gn, #00b43c)
+setColor(gn2, #20ea2e)
+setColor(b7, #b7b7b7)
+setColor(blue0, #309fc3)
+setColor(blue1, #2f6070)
+setColor(blue2, #16baff)

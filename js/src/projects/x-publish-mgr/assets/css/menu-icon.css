@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts-menu/icomoon.eot?xzwzph');
+  src: url('../fonts-menu/icomoon.eot?xzwzph#iefix') format('embedded-opentype'),
+    url('../fonts-menu/icomoon.ttf?xzwzph') format('truetype'),
+    url('../fonts-menu/icomoon.woff?xzwzph') format('woff'),
+    url('../fonts-menu/icomoon.svg?xzwzph#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  // line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu-AR:before {
+  content: '\e900';
+}
+.icon-menu-VR:before {
+  content: '\e901';
+}
+.icon-menu-Panorama:before {
+  content: '\e902';
+}
+.icon-menu-debris-resources:before {
+  content: '\e903';
+}
+.icon-menu-reorganization:before {
+  content: '\e904';
+}
+.icon-menu-data-base-1:before {
+  content: '\e905';
+}
+.icon-menu-video-courseware:before {
+  content: '\e906';
+}
+.icon-menu-set-product:before {
+  content: '\e907';
+}
+.icon-menu-article-product:before {
+  content: '\e908';
+}
+.icon-menu-course-product:before {
+  content: '\e909';
+}
+.icon-menu-course-product-pub:before {
+  content: '\e90a';
+}
+.icon-menu-my-resources:before {
+  content: '\e90b';
+}
+.icon-menu-resources-pub:before {
+  content: '\e90c';
+}
+.icon-menu-atlas:before {
+  content: '\e90d';
+}
+.icon-menu-audio-set:before {
+  content: '\e90e';
+}
+.icon-menu-video-set:before {
+  content: '\e90f';
+}
+.icon-menu-essays:before {
+  content: '\e910';
+}
+.icon-menu-book-set:before {
+  content: '\e911';
+}
+.icon-menu-courseware:before {
+  content: '\e912';
+}
+.icon-menu-data-base:before {
+  content: '\e913';
+}
+.icon-menu-magazine:before {
+  content: '\e914';
+}
+.icon-menu-fold-true:before {
+  content: '\e915';
+}
+.icon-menu-fold:before {
+  content: '\e916';
+}
+.icon-menu-other:before {
+  content: '\e917';
+}
+.icon-menu-d3:before {
+  content: '\e918';
+}
+.icon-menu-ar:before {
+  content: '\e919';
+}
+.icon-menu-h5:before {
+  content: '\e91a';
+}
+.icon-menu-back:before {
+  content: '\e91b';
+}
+.icon-menu-ebook:before {
+  content: '\e91c';
+}
+.icon-menu-multi-ebook:before {
+  content: '\e91d';
+}
+.icon-menu-check:before {
+  content: '\e91e';
+}
+.icon-menu-course:before {
+  content: '\e91f';
+}
+.icon-menu-authority:before {
+  content: '\e920';
+}
+.icon-menu-video:before {
+  content: '\e921';
+}
+.icon-menu-arrow-right:before {
+  content: '\e922';
+}
+.icon-menu-home:before {
+  content: '\e923';
+}
+.icon-menu-relate:before {
+  content: '\e924';
+}
+.icon-menu-audio-prod:before {
+  content: '\e925';
+}
+.icon-menu-pic:before {
+  content: '\e926';
+}
+.icon-menu-article:before {
+  content: '\e927';
+}
+.icon-menu-mydistribute:before {
+  content: '\e928';
+}
+.icon-menu-audio:before {
+  content: '\e929';
+}
+.icon-menu-arrow-down:before {
+  content: '\e92a';
+}
+.icon-menu-theme-prod:before {
+  content: '\e92b';
+}
+.icon-menu-video-prod:before {
+  content: '\e92c';
+}
+.icon-menu-upload-full:before {
+  content: '\e92d';
+}
+.icon-menu-file-transfer:before {
+  content: '\e92e';
+}
+.icon-menu-article-push:before {
+  content: '\e90ca';
+}
+.icon-menu-mixins:before {
+  content: '\e90cc';
+}
+.icon-menu-publish:before {
+  content: '\e90cf';
+}

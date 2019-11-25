@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts1/icomoon.eot?ccyze5');
+    src:  url('../fonts1/icomoon.eot?ccyze5#iefix') format('embedded-opentype'),
+      url('../fonts1/icomoon.ttf?ccyze5') format('truetype'),
+      url('../fonts1/icomoon.woff?ccyze5') format('woff'),
+      url('../fonts1/icomoon.svg?ccyze5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-wms_msgComment:before {
+    content: "\e919";
+  }
+  .icon-userMsg:before {
+    content: "\e900";
+  }
+  .icon-wms_auth:before {
+    content: "\e915";
+  }
+  .icon-wms_close:before {
+    content: "\e916";
+  }
+  .icon-wms_open:before {
+    content: "\e917";
+  }
+  .icon-wms_total:before {
+    content: "\e918";
+  }
+  .icon-wms_bookManage:before {
+    content: "\e901";
+  }
+  .icon-wms_bookManage1:before {
+    content: "\e902";
+  }
+  .icon-wms_bookSettings:before {
+    content: "\e903";
+  }
+  .icon-wms_cash:before {
+    content: "\e904";
+  }
+  .icon-wms_cash1:before {
+    content: "\e905";
+  }
+  .icon-wms_home:before {
+    content: "\e906";
+  }
+  .icon-wms_indexSettings:before {
+    content: "\e907";
+  }
+  .icon-wms_mediaBook:before {
+    content: "\e908";
+  }
+  .icon-wms_memberlist:before {
+    content: "\e909";
+  }
+  .icon-wms_memberlist1:before {
+    content: "\e90a";
+  }
+  .icon-wms_orderManage:before {
+    content: "\e90b";
+  }
+  .icon-wms_orderSelect:before {
+    content: "\e90c";
+  }
+  .icon-wms_product:before {
+    content: "\e90d";
+  }
+  .icon-wms_rcmSettings:before {
+    content: "\e90e";
+  }
+  .icon-wms_sales:before {
+    content: "\e90f";
+  }
+  .icon-wms_sales_setting:before {
+    content: "\e910";
+  }
+  .icon-wms_saleslist:before {
+    content: "\e911";
+  }
+  .icon-wms_setting:before {
+    content: "\e912";
+  }
+  .icon-wms_statistics:before {
+    content: "\e913";
+  }
+  .icon-wms_theme:before {
+    content: "\e914";
+  }
+  

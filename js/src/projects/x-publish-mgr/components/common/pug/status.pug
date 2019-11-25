@@ -1,0 +1,11 @@
+.group.rowWrap( v-if="metadata"  v-for="(item, index) in metadata")
+  .label( v-text="index+1")
+  input.form-control.left( v-model="item.key"  )
+  input.form-control.right( v-model="item.value" )
+  span.btn
+    el-button(@click="delMetadata(index)" size="medium" type="primary" plain icon="el-icon-delete" ) 删除
+.metaadd
+  el-button(@click="addMetadata" type="success") 新增
+.btns
+  el-button( @click=" $emit('update:detailDialog', false)"  type="info" ) 取消
+  el-button(@click="submitDetail('detailForm')"  type="primary" ) 确定

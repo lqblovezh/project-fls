@@ -1,0 +1,38 @@
+@keyframes show
+  0%
+    background rgba(0, 0, 0, 0)
+  100%
+    background rgba(0, 0, 0, 0.6)
+@keyframes panel-show
+  0%
+    background rgba(0, 0, 0, 0)
+  100%
+    background rgba(0, 0, 0, 0.3)
+@keyframes panel-hide
+  0%
+    background rgba(0, 0, 0, 0.3)
+  100%
+    background rgba(0, 0, 0, 0)
+@keyframes panel-select-show
+  0%
+    transform translateX(6rem)
+  100%
+    transform translateX(0rem)
+@keyframes panel-select-hide
+  0%
+    transform translateX(0rem)
+  100%
+    transform translateX(6rem)
+@keyframes scale-choose
+  0%
+    transform scaleX(0.1)
+  100%
+    transform scaleX(1)
+.mask
+  position fixed
+  top 0
+  bottom 0
+  left 0
+  right 0
+  z-index 10
+  animation show 0.2s ease forwards

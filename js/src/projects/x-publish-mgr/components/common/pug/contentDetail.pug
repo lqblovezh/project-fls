@@ -1,0 +1,80 @@
+.div
+  VaForm( ref="detailFormVali"  )
+    form.detailForm( ref="detailForm"  )
+      fieldset(:disabled="detailReadOnly")
+        .group
+          .label *名称:
+          input.form-control( v-va="{ type:'required' }"  v-model="detailDataOwn.name"   type="text" )
+        .group
+          .label 类型:
+          span.types
+            span.shallow-color( v-text="mediaTypeName || '视频' ")
+            //- span  序号:
+            //-   span.shallow-color {{detailDataOwn.id}}
+            span  创建时间:
+              span.shallow-color {{detailDataOwn.create_time}}
+
+        //- .group
+        //-   .label 作者:
+        //-   input.form-control(    v-model="detailDataOwn.author"    type="text" )
+        .group
+          .label 标签:
+          input.form-control( v-model="detailDataOwn.tag"   type="text"  )
+        .group
+          .label 简介:
+          textarea.textarea(  v-model="detailDataOwn.abs"   type="text"  )
+        .group
+          .label 详情:
+          span
+            span
+              input(type="radio" name="method" :value="false" v-model="detailDataOwn.img_status" )
+              |本地
+            span
+              input(type="radio"  name="method"  :value="true"   v-model="detailDataOwn.img_status" )
+              |外链
+        //- 外链 输入
+        .group.wailianinput(v-if="detailType == 'wailian'")
+          .label
+          span
+            input.form-control( :value="previewOtherFileUrl ||  detailDataOwn.preview"  @input="otherFile" ref="otherImgInput" v-va="{type:'required'}" placeholder="请输入链接")
+            //- span.confirmBtn
+            //-   el-button(type="primary" size="mini" plain ) 确定
+        .group
+          .label 封面
+          .coverBox
+            .left
+              span.wrap
+                img.coverImg(:src="previewImgUrl || detailDataOwn.img_src")
+            .right
+              .detailmain(v-if="detailType == 'bendi'")
+                span.wrap
+                  video( v-if="mediaType && mediaType != 'voice'" :src="previewMediaUrl || detailDataOwn.preview" controls ref="media")
+                  audio( v-if="mediaType && mediaType == 'voice'" :src="previewMediaUrl || detailDataOwn.preview" controls ref="media")
+                  span.msg
+                    .type 格式:
+                      span.val(v-text="detailDataOwn.format")
+                    .size(v-if="detailDataOwn.size") 大小:
+                      span.val( v-text="(detailDataOwn.size / 1024).toFixed(2) +'KB' ")
+                    el-button(@click="$refs.meidaFile.click()"  size="mini"  type="primary"  plain) 导入
+                    //- a(:href="detailDataOwn.preview"  :download="detailDataOwn.previewDownload" target="_black" @click="stopDefault")
+                      el-button(@click=""   size="mini"  type="primary"  ) 导出
+                    el-button(@click="$refs.coverInput.click()"    size="mini" type="primary" plain) 上传封面
+                    el-button(@click="setDefaultCover"    size="mini"  type="primary" plain)  使用默认封面
+              .detailmain.wailian(v-if="detailType == 'wailian'")
+                span.wrap
+                  video( v-if="mediaType && mediaType != 'voice'"  :src="previewOtherFileUrl || detailDataOwn.preview" controls ref="media")
+                  audio( v-if="mediaType && mediaType == 'voice'" :src="previewOtherFileUrl || detailDataOwn.preview" controls ref="media")
+                  span.msg
+                    .type 格式:
+                      span.val(v-text="fileMsg.format || detailDataOwn.format")
+                    el-button(@click="$refs.coverInput.click()"    size="mini"  type="primary" plain) 上传封面
+                    el-button(@click="setDefaultCover"    size="mini"  type="primary" plain)  使用默认封面
+        p.imgSizeWrap
+          span.imgSize 建议图片大小：250*140px
+        //- 隐藏inputs
+        div.hide
+          input.hide( @change="previewImg"   type="file"  ref="coverInput"  :accept="$config.imgAccept")
+          input.hide( @change=" previewMedia "  type="file"  ref="meidaFile"  :accept=" mediaType && mediaType == 'voice' ? $config.voiceAccept : $config.videoAccept")
+.btns
+  el-button( type="info" @click=" $emit('update:detailDialog', false)") 取消
+  el-button(@click="submitDetail('detailForm')" type="primary" v-if="!detailReadOnly") 确定

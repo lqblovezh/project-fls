@@ -1,0 +1,205 @@
+@import './variable'
+
+.after_item
+  position relative
+  &::after
+    content ' '
+    position absolute
+    left 0
+    right 0
+    bottom 0
+    height 4px
+    background-image linear-gradient(90deg, #F6D27E 0%, #B1936A 100%)
+    animation scale-choose 0.2s ease forwards
+/* btns */
+.bbtn
+  line-height 2em
+  text-align center
+  padding 0 1em
+  border-radius 1em
+  display inline-block
+.cbtn
+  line-height 2.5em
+  text-align center
+  padding 0 1.5em
+  border-radius 1.5em
+  display inline-block
+// color
+.aac // 主色
+  background-image linear-gradient(-108deg, #A6AAC1 0%, #D4D8ED 100%)
+  color #fff
+.b9a
+  background-image linear-gradient(90deg, #F6D27E 0%, #B1936A 100%)
+  box-shadow 0 3px 12px 2px rgba(132, 136, 153, 0.22)
+  color #fff
+.red
+  color #fff
+  background-image linear-gradient(-90deg, #F15A4A 0%, #F99381 100%)
+  box-shadow 0 3px 12px 2px rgba(132, 136, 153, 0.22)
+/*  */
+.embtn
+  line-height 2em
+  display inline-block
+  padding 0 1em
+.item-column-list
+  margin-left 0.3667rem
+  margin-bottom 0.35rem
+.form-login
+  padding 20px
+.btn-add-book
+  width 100px
+  height 35px
+  border-radius 18px
+  background #F15A4A
+  text-align center
+  color #fff
+  line-height 35px
+  position absolute
+  right 0
+  transform translateY(-40px)
+.btn-add-circle
+  font-size 12px
+  height 24px
+  line-height 22px
+  background #c99c5e
+  color #fff
+  display inline-block
+  text-align center
+  padding 0 15px
+  border-radius 12px
+  position absolute
+  right 15px
+.btn-column
+  padding 0 1em
+  background #F0F2FE
+  color #676A7B
+  display inline-block
+  border-radius 2px
+  text-align center
+  line-height 30px
+  font-size 14px
+  text-align left
+.btn-pay-read
+  height 35px
+  width 216px
+  line-height 35px
+  border-radius 18px
+  background #F0F2FE 100%
+  background-image linear-gradient(90deg, #F6D27E 0%, #B1936A 100%)
+  box-shadow 0 3px 12px 2px rgba(132, 136, 153, 0.22)
+  color #FFFFFF
+  display inline-block
+  text-align center
+.btn-login
+  width 80%
+  line-height 42px
+  display inline-block
+  // background $main-color
+  border-radius 21px
+  color #fff
+  &.plain
+    background #fff
+    color $main-color
+    border 1px solid $main-color
+    box-sizing border-box
+.btn_login_inp
+  width 100px
+  line-height 30px
+  display inline-block
+  border-radius 21px
+  text-align center
+  color #fff
+  background #A6AAC1
+  border-radius 0px 22.5px 22.5px 0px
+.comp-adv-input
+  display flex
+  justify-content space-around
+  >.text
+    line-height 32px
+    flex none
+  >.select
+    margin-right 20px
+    width 30%
+    flex auto
+    >select
+      background #F4F4F4
+      border-radius 4px
+      width 100%
+      &:focus
+        color #000
+      >option
+        color #000
+        height 120px
+  >.inp
+    width 60%
+    flex auto
+    >input
+      width 100%
+      background #F4F4F4
+  >.icon-tip
+    width 40px
+    text-align center
+    line-height 32px
+.btn-search-add
+  border-radius 1em
+  color #A6AAC1
+  border 1px dashed #A6AAC1
+  box-sizing border-box
+  padding 0 60px
+.item-checkbox
+  position relative
+  margin-right 14px
+  input[type='checkbox']
+    -webkit-appearance none
+    vertical-align middle
+    margin-top 0
+    background #fff
+    border #E8E8E8 solid 1px
+    border-radius 50%
+    height 15px
+    width 15px
+    &:focus
+      outline none
+  input[type='checkbox']:checked
+    background-color #F15A4A
+    border-color #F15A4A
+  input[type=checkbox]:checked::after
+    content ''
+    position absolute
+    top 5px
+    left 8px
+    height 7px
+    width 4px
+    border-right 2px solid #fff
+    border-bottom 2px solid #fff
+    transform rotate(45deg)
+.manage
+  position fixed
+  bottom 0
+  width 100%
+  height 45px
+  .footer-select
+    height 100%
+    flex 1
+    align-items center
+    >.item-checkbox
+      margin-left 15px
+  .footer-manage
+    >button
+      height 100%
+      flex 1
+  .footer-buy
+    align-items center
+    .footer-text
+      flex 1
+      p
+        &:last-child
+          margin-right 30px
+        span
+          letter-spacing -2px
+          color #F15A4A
+    >button
+      height 100%
+      flex 1
+  .footer-manage, .footer-buy
+    height 100%

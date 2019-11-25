@@ -1,0 +1,52 @@
+@import './variable'
+
+// 省略...
+setEllipsis(num)
+  if (num == 1)
+    .ellipsis
+      white-space nowrap
+      text-overflow ellipsis
+      overflow hidden
+  else
+    .ellipsis-{num}
+      display -webkit-box
+      -webkit-line-clamp num
+      text-overflow ellipsis
+      -webkit-box-orient vertical
+      overflow hidden
+
+// 设置最小宽度
+setMInPx(num)
+  .min{num}
+    min-width (num * 100) * 1px
+// 活动
+setActive(name, isBorder = true, ucolor = $main-color)
+  .active_{name}
+    transition color 0.1s ease-in-out
+    cursor pointer
+    box-sizing border-box
+    display inline-block
+    &.active
+      color ucolor !important
+      if (isBorder)
+        border-bottom 2px solid ucolor !important
+        border-bottom-color ucolor
+    &:hover
+      color ucolor !important
+// 标准化列表
+setNormalList(num)
+  .normal_ls_item_{num}
+    >.item
+      width 250px * (4 / num)
+      display inline-block
+      margin 30px * (4 / num) 10px * (4 / num) 0px 34px * (4 / num)
+for num in 3...7
+  setNormalList(num)
+for num in 1...4
+  setEllipsis(num)
+for num in 13...19
+  setMInPx(num)
+// 格式化不支持list = (normal false) (border true) (border_og true #ff8d00)
+setActive(normal, false)
+setActive(border, true)
+setActive(border_og, true, #ff8d00)

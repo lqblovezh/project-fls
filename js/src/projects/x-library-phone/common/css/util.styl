@@ -1,0 +1,100 @@
+@import './variable'
+
+// 省略...
+setEllipsis(num)
+  if (num == 1)
+    .ellipsis
+      white-space nowrap
+      text-overflow ellipsis
+      overflow hidden
+  else
+    .ellipsis-{num}
+      display -webkit-box
+      -webkit-line-clamp num
+      text-overflow ellipsis
+      -webkit-box-orient vertical
+      overflow hidden
+// padding
+setPaddingMargin(num)
+  .pl{num}
+    padding-left 1px * num
+  .pr{num}
+    padding-right 1px * num
+  .ml{num}
+    margin-left 1px * num
+  .mr{num}
+    margin-right 1px * num
+// 字号
+setFontSize(num)
+  .f{num}
+    font-size 1px * num !important
+.f600
+  font-weight 600
+.f800
+  font-weight 800
+// 设置最小宽度
+setMInPx(num)
+  .min{num}
+    min-width (num * 100) * 1px
+// 活动
+setActive(name, isBorder = true, ucolor = $main-color)
+  .active_{name}
+    transition color 0.1s ease-in-out
+    box-sizing border-box
+    display inline-block
+    &.active
+      font-weight 600 !important
+      if (isBorder)
+        border-bottom 2px solid ucolor !important
+        border-bottom-color ucolor
+    // &:hover
+    //   color ucolor !important
+// 设置color
+setColor(name, ucolor, isBd = false)
+  .c_{name}
+    color ucolor
+  .c_{name}_bg
+    background ucolor
+// 标准化列表
+setNormalList(num)
+  .normal_ls_item_{num}
+    >.item
+      width 250px * (4 / num)
+      display inline-block
+      margin 30px * (4 / num) 10px * (4 / num) 0px 34px * (4 / num)
+for num in 3...7
+  setNormalList(num)
+for num in 12...37
+  setFontSize(num)
+setFontSize(0)
+for num in 1...4
+  setEllipsis(num)
+for num in 13...19
+  setMInPx(num)
+// 格式化不支持list = (normal false) (border true) (border_og true #ff8d00)
+setActive(normal, false)
+setActive(border, true)
+setActive(border_og, true, #ff8d00)
+// 常用color
+for num in 0...16
+  setColor(num, #111 * num)
+// padding
+for num in 0...100
+  setPaddingMargin(num, #111 * num)
+setColor(f, #fff)
+setColor(f5, #f5f5f5)
+setColor(e0, #e0e0e0)
+setColor(price, #ff5d16)
+setColor(error, #f1403c)
+setColor(theme, $main-color)
+setColor(og, #ffa800)
+setColor(og_2, #ff8d00)
+setColor(gn, #00b43c)
+setColor(gn2, #20ea2e)
+setColor(b7, #b7b7b7)
+setColor(blue0, #309fc3)
+setColor(blue1, #2f6070)
+setColor(blue2, #16baff)
+setColor(gray1, #A6AAC1)
+setColor(orange, #F15A4A)
+setColor(orange2, #B1936A)

@@ -1,0 +1,9 @@
+span.group-inline
+	el-input(placeholder="名称" name="name" clearable  v-model="searchQuery.name")
+span.group-inline
+	el-input(placeholder="标签" name="tag" clearable  v-model="searchQuery.tag")
+span.group-inline
+	TimePick(:inputsName="['start_time','end_time']")
+span.group-inline
+	el-button(size="mediu" type="primary"    @click="query" plain  icon="el-icon-search" ) 搜索
+	el-button(size="mediu" type="primary"  @click="opneDetailDialogAdd('xq',true)"  icon="el-icon-plus" ) 新建

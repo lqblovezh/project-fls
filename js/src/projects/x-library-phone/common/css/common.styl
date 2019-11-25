@@ -1,0 +1,101 @@
+@import './variable'
+
+html
+  font-family 'Microsoft YaHei'
+body
+  word-break break-all
+// 居中
+.cbox
+  width 1200px
+  margin 0 auto
+// 浮动修复
+.fix
+  &::after
+    content ' '
+    display block
+    clear both
+// 垂直居中
+.vertical-center
+  position absolute
+  top 50%
+  transform translateY(-50%)
+.no-data
+  text-align center
+  font-size 14px
+  color #666
+  line-height 50px
+// 快捷缩写
+.ib
+  display inline-block
+.vt
+  vertical-align top
+.vm
+  vertical-align middle
+.vm-all
+  vertical-align middle
+  >span, >div, >img, >input
+    vertical-align middle
+.vm-list
+  >div
+    >span, >div, >img, >input
+      vertical-align middle
+.vt-all
+  vertical-align top
+  >span, >div, >img, >input
+    vertical-align top
+.flex
+  display flex
+.vb
+  vertical-align bottom
+.cp
+  cursor pointer
+.fl
+  float left
+.fr
+  float right
+.tc
+  text-align center
+.tl
+  text-align left
+.tr
+  text-align right
+.bbox
+  box-sizing border-box
+.pr
+  position relative
+.pa
+  position absolute
+.fwb
+  font-weight bold
+.hide
+  display none
+.rotate_180
+  transform rotate(180deg)
+.img
+  display inline-block
+.rt180
+  transform rotate(180deg)
+.rt90
+  transform rotate(270deg)
+.after_bd
+  position relative
+  &::after
+    position absolute
+    content ' '
+    left 0
+    right 0
+    height 1px
+    background #F0F2FE
+.before_vt
+  position relative
+  &::before
+    position absolute
+    content ' '
+    width 4px
+    left 0
+    top 0
+    bottom 0
+    background #c99c5e
+    border-radius 2px
+    height 30px
+    margin auto 0

@@ -1,0 +1,8 @@
+.group
+  .label 移动到
+  select.form-control(  ref="moveToId"   placeholder="请选择")
+    option( v-for="(item,index) in groupList" v-if="item.id != currGroup && item.id!=''"
+          v-text="item.name "  :value="item.id")
+span.dialog-footer( slot="footer" class="")
+  el-button( @click="moveToOtherDiaolog = false" type="info" ) 返回
+  el-button( @click="moveToSubmit" type="primary"  )  确定

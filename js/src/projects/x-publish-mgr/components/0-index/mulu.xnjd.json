@@ -1,0 +1,110 @@
+{
+  "warehouse": [
+    {
+      "name": "电子书",
+      "type": "books",
+      "icon": "digitalLibrary",
+      "path": "digitalBook"
+    },
+    {
+      "name": "文章库",
+      "type": "article",
+      "icon": "articleLibrary",
+      "path": "article"
+    },
+    {
+      "name": "图片库",
+      "type": "picture",
+      "icon": "pictureLibrary",
+      "path": "imgs"
+    },
+    {
+      "name": "音频库",
+      "type": "audio",
+      "icon": "audioLibrary",
+      "path": "voices"
+    },
+    {
+      "name": "视频库",
+      "type": "video",
+      "icon": "videoLibrary",
+      "path": "videos"
+    },
+    {
+      "name": "3D内容库",
+      "type": "content",
+      "icon": "contentLibrary",
+      "path": "3D"
+    },
+    {
+      "name": "H5作品库",
+      "type": "library",
+      "icon": "workLibrary",
+      "path": "H5"
+    },
+    {
+      "name": "AR内容库",
+      "type": "libraries",
+      "icon": "ARLibrary",
+      "path": "AR",
+      "count": 0
+    },
+    {
+      "name": "VR内容库",
+      "type": "libraries_vr",
+      "icon": "VRLibrary",
+      "path": "VR"
+    },
+    {
+      "name": "全景图",
+      "type": "panorama",
+      "icon": "panorama",
+      "path": "panorama",
+      "count": 0
+    }
+  ],
+  "product":[
+    {
+      "name": "融合发布库",
+      "type": "com_product",
+      "icon": "bookLibrary",
+      "path": "release"
+    },
+    {
+      "name": "电子书多格式",
+      "type": "mult_books",
+      "icon": "formLibrary",
+      "path": "polymorph"
+    },
+    {
+      "name": "主题产品",
+      "type": "theme",
+      "icon": "topicLibrary",
+      "path": "themeLibary"
+    },
+    {
+      "name": "文章推送产品",
+      "type": "push_articles",
+      "icon": "pushLibrary",
+      "path": "pushArticle"
+    },
+    {
+      "name": "视读产品",
+      "type": "video_product",
+      "icon": "shidu",
+      "path": "video"
+    },
+    {
+      "name": "听读产品",
+      "type": "audio_product",
+      "icon": "tingdu",
+      "path": "audio"
+    },
+    {
+      "name": "课件产品",
+      "type": "course_ware",
+      "icon": "kejian",
+      "path": "media"
+    }
+  ]
+}

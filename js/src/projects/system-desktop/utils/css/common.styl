@@ -1,0 +1,171 @@
+#app
+  font-size 16px
+  word-break break-all
+body, p, h2, h3, h4, ul, li
+  padding 0
+  margin 0
+  list-style none
+.restBody2
+  .el-dialog__body
+    padding 0 20px
+.detailForm
+  padding-left 30px
+.hide
+  display none
+.form-control
+  -webkit-appearance none
+  background-color #fff
+  background-image none
+  border-radius 4px
+  border 1px solid #dcdfe6
+  -webkit-box-sizing border-box
+  box-sizing border-box
+  color #606266
+  display inline-block
+  font-size inherit
+  height 35px
+  line-height 1
+  outline none
+  padding 0 15px
+  width calc(100% - 240px)
+  min-width 150px
+.inputDanger
+  border-color #F7793E !important
+.makeDetail
+  background-color #f5f5f5
+  min-height 700px
+  >.content
+    width 1300px
+    padding 60px 50px 140px
+    background-color #fff
+    margin 30px auto 70px
+    border-top 3px solid #f7793e
+    .box
+      overflow hidden
+      p.title
+        font-size 20px
+        color #333
+        margin-bottom 20px
+    .el-steps
+      margin 60px 0 70px
+      background-color #f5f5f5
+      padding 30px
+      .el-step__title
+        font-size 14px
+    .typeName
+      text-align center
+      font-size 26px
+      color #444
+      margin-bottom 70px
+      font-weight bold
+  .group, .group-inline
+    line-height 38px
+    margin-bottom 10px
+    .preveImage
+      max-width 250px
+      max-height 250px
+      vertical-align text-top
+      margin-right 20px
+    .textarea
+      box-sizing border-box
+      vertical-align text-top
+      border 1px solid #dcdfe6
+      color #606266
+      font-size inherit
+      height 100px
+      resize none
+      padding 10px
+      border-radius 4px
+      &:focus
+        outline none
+    .label
+      display inline-block
+      text-align left
+      font-size 14px
+      padding-right 20px
+      min-width 100px
+      max-width 200px
+      color #666666
+      vertical-align middle
+      &.must
+        position relative
+        padding-left 10px
+        &:before
+          content '*'
+          position absolute
+          color #fb7f72
+          left 0
+    .large
+      width calc(100% - 200px)
+    .small
+      width 466px
+    .mini
+      min-width 125px
+      width 125px
+/* 表格重置 */
+.table
+  table-layout fixed
+  width 100%
+  // min-width 600px
+  border-spacing 0
+  border-collapse collapse
+  display table
+  &.border
+    border 1px solid #ddd
+    tr
+      border 1px solid #ddd
+  thead
+    display table-header-group
+    vertical-align middle
+    border-color inherit
+    background #efefef
+  tbody
+    display table-row-group
+    vertical-align middle
+    border-color inherit
+  tbody > tr:hover
+    background #fafafa
+  tbody > tr:nth-child(2n)
+    background #efefef
+  tr
+    display table-row
+    vertical-align inherit
+    border-color inherit
+    height 50px
+  th, td
+    padding 8px
+    font-weight normal
+    line-height 20px
+    vertical-align middle
+    word-break break-all
+    text-align left
+.el-message--success,
+.el-message--warning
+  .el-message__closeBtn:after
+    content ' '
+    width 1px
+    height 16px
+    display inline-block
+    left -32px
+    top 1px
+    position relative
+    background #f65556
+    border none
+.el-message--success
+  .el-message__closeBtn:after
+    background #67C23A
+.el-message-box__wrapper
+  .el-message-box__header
+    .el-message-box__title
+      font-size 26px
+      color red
+  .el-message-box__content
+    .el-message-box__message
+      .group
+        line-height 25px
+        color #9c9c9c
+        label
+          min-width 120px
+          display inline-block
+          text-align right
+          padding-right 10px

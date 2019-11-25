@@ -1,0 +1,100 @@
+.icon-close
+  background url('../img/close2.png') no-repeat center
+  background-size 12px
+  display inline-block
+  width 25px
+  height 25px
+  vertical-align middle
+.icon-time-select
+  background url('../img/time-select.png') no-repeat center
+  background-size 14px
+  display inline-block
+  width 14px
+  height 14px
+  vertical-align middle
+.icon-right-arrow
+  background url('../img/more.png') no-repeat center
+  background-size 6.5px 11px
+  display inline-block
+  width 6.5px
+  height 11px
+  vertical-align middle
+.icon-essence
+  background url('../img/essence.png') no-repeat center
+  background-size 14px 16px
+  display inline-block
+  width 14px
+  height 16px
+  vertical-align middle
+.icon-up
+  background url('../img/up.png') no-repeat center
+  background-size 16px
+  display inline-block
+  width 16px
+  height 16px
+  vertical-align middle
+.icon-up-true
+  background url('../img/up-true.png') no-repeat center
+  background-size 16px
+  display inline-block
+  width 16px
+  height 16px
+  vertical-align middle
+.icon-weixin-large
+  background url('../img/icon-weixin-large.png') no-repeat center
+  background-size 22px
+  display inline-block
+  width 22px
+  height 22px
+  vertical-align middle
+.icon-alipay-large
+  background url('../img/icon-alipay-large.png') no-repeat center
+  background-size 22px
+  display inline-block
+  width 22px
+  height 22px
+  vertical-align middle
+.icon-weixin-small
+  background url('../img/icon-weixin-small.png') no-repeat center
+  background-size 16px
+  display inline-block
+  width 16px
+  height 16px
+  vertical-align middle
+.icon-alipay-small
+  background url('../img/icon-alipay-small.png') no-repeat center
+  background-size 16px
+  display inline-block
+  width 16px
+  height 16px
+  vertical-align middle
+.icon-check
+  width 16px
+  height 16px
+  display inline-block
+  background url('../img/checked.png') no-repeat right center
+  background-size 16px
+.icon-check-true
+  width 16px
+  height 16px
+  display inline-block
+  background url('../img/checked-true.png') no-repeat right center
+  background-size 16px
+.icons
+  display inline-block
+  background-repeat no-repeat
+  background-position center
+  vertical-align middle
+  cursor pointer
+// 
+$icons = back search-n backo book-og video-og pic-og
+set-icon(name, w = 0, h = 0)
+  if (w)
+    .icon-{name}
+      width w
+      height h
+      background-image url('../img/' + name + '.png')
+      background-size w h
+for name in $icons
+  set-icon(name, 20px, 20px)
+set-icon(more-og, 14px, 14px)

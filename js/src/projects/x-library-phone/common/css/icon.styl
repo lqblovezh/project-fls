@@ -1,0 +1,126 @@
+
+.icon
+  display inline-block
+  background-repeat no-repeat
+  background-position center
+  vertical-align middle
+$top-icons = home-active find-plain find-active star-plain star-active user-plain user-active hot recommend results play
+$top-icons2 = review see into wrong-book commit back delete integral-five integral-ten integral-twenty integral-fifty answer answer-s discuss discuss-s private private-s info info-s
+$top-icons3 = jobs lady man integral integration success failure
+$top-icons4 = user-qq user-qq-s wechat wechat-s
+$top-other-login = qq wx xl
+set-icon(name, w = 0, h = 0)
+  if (w)
+    .icon-{name}
+      width w
+      height h
+      background-image url('../img/' + name + '.png')
+      background-size w h
+      background-repeat no-repeat
+  else
+    .icon-{name}
+      background-image url('../img/' + name + '.png')
+set-three-icon(name, w = 0, h = w)
+  .icon-three-{name}
+    width w
+    height h
+    background-image url('../img/' + name + '@3x.png')
+    background-size w h
+    background-repeat no-repeat
+set-icon('home-plain', 18px, 19px)
+set-icon('eye', 18px, 19px)
+set-icon('eye3', 45px, 45px)
+set-icon('scan', 22px, 20px)
+set-icon('home-search', 15px, 15px)
+set-icon('more', 10px, 17px)
+set-icon('pencil', 16px, 16px)
+set-icon('left-arrow-white', 10px, 17px)
+set-icon('left-arrow-dark', 12px, 22px)
+set-icon('column', 23px, 17px)
+set-icon('book', 18px, 20px)
+set-icon('note', 17px, 17px)
+set-icon('del', 17px, 17px)
+set-icon('read', 18px, 17px)
+set-icon('bookcard', 18px, 18px)
+set-icon('shopcar', 18px, 18px)
+set-icon('help', 19px, 19px)
+set-icon('message', 20px, 19px)
+set-icon('find-plain2', 23px, 13px)
+set-icon('find-active2', 23px, 13px)
+set-icon('star-select', 13px, 12px)
+set-icon('avatar', 72px, 72px)
+set-three-icon('avatar', 80px, 80px)
+set-icon('avatar', 90px, 90px)
+set-three-icon('avatar', 90px, 90px)
+set-icon('close', 10px, 10px)
+set-icon('close3', 15px, 15px)
+set-icon('sort', 6px, 15px)
+set-icon('fire', 11px, 15px)
+set-icon('check', 15px, 15px)
+set-icon('share', 18px, 18px)
+set-icon('like-checked', 18px, 18px)
+set-icon('like', 18px, 18px)
+set-icon('comment', 18px, 17px)
+set-icon('take-photo', 65px, 65px)
+set-icon('write', 22px, 22px)
+set-icon('photo', 22px, 22px)
+set-icon('write2', 20px, 25px)
+set-icon('book-room', 100%, 170px)
+set-icon('br-search-btn', 84px, 30px)
+set-icon('br-complete-btn', 84px, 30px)
+set-icon('br-manage-btn', 84px, 30px)
+set-icon('message-unread', 16px, 15px)
+set-icon('message-read', 16px, 17px)
+set-icon('note-bg', 100%, 156px)
+set-icon('bookmark-bg', 100%, 156px)
+set-icon('history-bg', 100%, 156px)
+set-icon('record-bg', 100%, 156px)
+set-icon('failed', 60px, 60px)
+set-icon('success', 60px, 60px)
+set-icon('add-book', 115px, 46px)
+set-icon('add-circle', 115px, 46px)
+set-icon('user_bg', 100%, auto)
+set-icon('star_full', 16px, 16px)
+set-icon('star_empty', 16px, 16px)
+set-icon('star_half', 16px, 16px)
+set-icon('write_color', 15.8px, 15.8px)
+set-icon('alipay-small', 20px, 20px)
+set-icon('weixin-small', 20px, 20px)
+set-icon('circle-bg', 100px, 130px)
+set-icon('good-default', 120px, 80px)
+set-icon('db-eye', 18px, 12px)
+for name in $top-icons
+  set-icon(name, 20px, 20px)
+/* CATE */
+/* CATE */
+for name in $top-other-login
+  set-icon(name, 45px, 45px)
+.icon-test
+  background-image url('../img/pc.png')
+  height 100px
+  background-repeat no-repeat
+  background-size 150px 100px
+/*
+rem 是根据屏幕大小进行缩放
+设计稿100px 对应 物理375宽度的手机, 代码应写成50px, 完美
+但是如果是大手机, 50px, 就会太小, 因此用1rem 代表 手机上的50px
+但是对于图片, 不能这样处理, 图片的拉伸, 会引起变形, 50px 的图片,放在手机, 
+如果拉伸成60px, 就会模糊, 因此图片要准备大套的, 屏幕超过一定大小
+就用大图片, 
+ 
+bg-image($url)  // 创建bg-image($url)函数
+  background-image: url($url + "@2x.png")
+  @media(min-device-pixel-ratio: 3)
+    background-image: url($url + "@3x.png")
+ */
+for name in bg2 bg-column bg-house bg-top bg-book2
+  .bg-{name}
+    background-image url('../img/' + name + '.png')
+    background-size cover
+.bg-bg2, .bg-bg-house, .bg-bg-book2
+  position fixed
+  top 0
+  left 0
+  right 0
+  bottom 0
+  z-index -5

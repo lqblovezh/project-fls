@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      let name = 'window.name'
+      let obj = {
+        name: 'obj.name',
+        /* 
+        this指向的固定化，并不是因为箭头函数内部有绑定this的机制，实际原因是箭头函数根本没有自己的this，
+        导致内部的this就是外层代码块的this。正是因为它没有this，所以也就不能用作构造函数。
+        */
+        getName: () => {
+          console.log(this.name)
+        },
+        getName2() {
+          console.log(this.name)
+        },
+        Person() {
+          console.log('person')
+        },
+      }
+      let _getName1 = obj.getName
+      let _getName2 = obj.getName2
+
+      // 箭头函数的this, 不属于调用者, 在一开始就确定了, 属于定义时的上下文
+      // 而obj是对象, 不是函数,他没有自己的上下文, 而他的外部是window,因此此时
+      // getName 指向window, 只有函数才拥有this, 而主线程其实相当于main 函数,上下文window
+      obj.getName() //window.name
+
+      // 这里其实是 windows.obj.name(),  但是,最终调用者是obj, 那么函数里面的this就是obj
+      // this指向的也只是它直接调用者, 非箭头函数的, this,只有调用时才能确定
+      obj.getName2() //obj.name
+
+      // 这时, 直接调用则变成了window._getName2()
+      _getName2() //window.name
+      _getName1() //window.name
+
+      // 报错, 对象的函数, 不能当作构造函数
+      // new obj.Person()
+      // new obj.getName2()
+
+      let A = () => {
+        console.log(this)
+      }
+      function B() {
+        console.log(this)
+      }
+      let C = function() {
+        console.log(this)
+      }
+      // new A()// 报错,箭头函数不能当构造函数
+      new B() // B {}
+      new C() // C {}
+      let persion = {
+        name: 'lq',
+        D: function() {
+          console.log(this)
+        },
+        // 和D的区别是, 不能当作构造函数
+        E() {
+          console.log(this)
+        },
+      }
+      new persion.D() //D {}
+      // new persion.E() // persion.E is not a constructor
+      let _E = persion.E
+      // new _E() // _E is not a constructor
+
+      var handler = {
+        id: '123456',
+
+        init: function() {
+          document.addEventListener(
+            'click',
+            event => this.doSomething(event.type),
+            false
+          )
+        },
+
+        doSomething: function(type) {
+          console.log('Handling ' + type + ' for ' + this.id)
+        },
+      }
+      // 箭头函数在init内部, 而init不是箭头函数,
+      // 箭头函数的this,其实就是init函数作用域里面的this
+      // init 因为不是箭头函数,并且handler调用, 指向handler
+      handler.init()
+    </script>
+  </body>
+</html>
