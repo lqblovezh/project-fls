@@ -1,0 +1,25 @@
+/*!
+ * {
+ *   "buildtime": "2019-06-17 15:13:29",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "ecb058dd8",
+ *     "message": [
+ *       "commit ecb058dd8be16255580b36968fc3831fa41d5989",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Mon Jun 17 15:12:32 2019 +0800",
+ *       "    'xxxxx'"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */.page-course-step>.wrap{padding:30px}.page-course-step>.wrap>.table .btns{min-width:100px}.page-course-step>.wrap>.table .btns>.learned{position:relative;width:20px;height:20px;border:1px solid gray;border-radius:50%}.page-course-step>.wrap>.table .btns>.learned:before{content:"";position:absolute;width:8px;height:4px;top:5px;left:5px;border-left:2px solid gray;border-bottom:2px solid gray;transform:rotate(-45deg)}.page-course-step>.wrap>.table tbody tr{cursor:pointer}.page-course-step>.wrap>.table tbody td{color:#000;max-width:300px}.page-course-step>.wrap>.detail{padding:30px}.page-course-step>.wrap>.detail>.title{position:relative;margin-bottom:20px}.page-course-step>.wrap>.detail>.title>.name{text-align:center;line-height:30px}.page-course-step>.wrap>.detail>.title>.btns{position:absolute;right:0;top:0}.page-course-step>.wrap>.detail>.title>.btns>div{margin-left:20px}.page-course-step>.wrap>.detail>.section>div:nth-of-type(2){margin-bottom:70px}.page-course-step>.wrap>.detail>.section>.des{line-height:18px;text-indent:30px;margin:20px 0}.page-course-step>.wrap>.detail>.section>.steps{position:relative;font-size:0;margin-top:40px;padding-bottom:50px}.page-course-step>.wrap>.detail>.section>.steps>div{margin-right:5px}.page-course-step>.wrap>.detail>.section>.steps>div>.pg{width:80px;margin-right:0;position:relative}.page-course-step>.wrap>.detail>.section>.steps>div>.pg>.plan{text-align:center;left:0;top:16px;right:0;margin-top:10px}.page-course-step>.wrap>.detail>.section>.steps>div>.pg>.plan:last-child{height:45px}.page-course-step>.wrap>.detail>.section>.steps>div>.line{width:100px;transform:translateY(-36px)}.page-course-step>.wrap>.detail>.section>.steps>div>.line .el-progress-bar__inner,.page-course-step>.wrap>.detail>.section>.steps>div>.line .el-progress-bar__outer{border-radius:0!important}

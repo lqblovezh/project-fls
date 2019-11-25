@@ -1,0 +1,25 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-17 10:58:50",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "a51842995",
+ *     "message": [
+ *       "commit a51842995ac312d7b576d646ab99c7a4f3f34d0b",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Wed Jul 17 10:58:23 2019 +0800",
+ *       "    xxx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */.comp-circle-sort-by{font-size:.24rem}.comp-circle-sort-by>.sort-by{top:130px;position:fixed;left:0;right:0;line-height:40px;background:#fff;z-index:10;-webkit-box-shadow:0 3px 2px 1px rgba(132,136,153,.1);box-shadow:0 3px 2px 1px rgba(132,136,153,.1)}.comp-circle-sort-by>.sort-by>.ls{-ms-flex-pack:distribute;justify-content:space-around}.comp-circle-sort-by>.sort-by>.ls>.item{width:33%;-webkit-box-flex:1;-ms-flex:auto;flex:auto}.comp-circle-sort-by>.sort-by>.ls>.item>.icon-sort{-webkit-transition:all .3s ease;transition:all .3s ease}.comp-circle-sort-by>.sort-by>.ls>.item>.icon-sort.rt180{-webkit-transform:rotate(-180deg);transform:rotate(-180deg);-webkit-transition:all .3s ease;transition:all .3s ease}.comp-circle-sort-by>.sort-by>.ls>.item:after{content:"|";color:#bbb;position:absolute;-webkit-transform:translateX(12px);transform:translateX(12px)}.comp-circle-sort-by>.sort-by>.ls>.item:last-child:after{content:""}.comp-circle-sort-by>.sort-by>.ls>.item>span{margin-right:15px}.comp-circle-sort-by>.sort-by>.ls .inp{width:33%;-webkit-box-flex:1;-ms-flex:auto;flex:auto;text-align:right}.comp-circle-sort-by>.sort-by>.ls .inp>input{width:1.6rem;-webkit-transition:width .3s ease-in-out;transition:width .3s ease-in-out}.comp-circle-sort-by>.sort-by>.ls .inp>.icon{width:.8rem;height:40px}.comp-circle-sort-by>.sort-by>.ls .inp.active{position:fixed;left:0;right:0;width:100%;background:#fff}.comp-circle-sort-by>.sort-by>.ls .inp.move>input{-webkit-transition:width .3s ease-in-out;transition:width .3s ease-in-out;width:6.5rem}

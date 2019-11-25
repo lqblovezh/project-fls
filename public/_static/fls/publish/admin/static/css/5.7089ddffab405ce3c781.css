@@ -1,0 +1,191 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:01:49",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "b17f442a6",
+ *     "message": [
+ *       "commit b17f442a62eb78bc9ab78ffe68e3afb76c3e3548",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 14:48:13 2019 +0800",
+ *       "    xxxxxx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+.btns[data-v-d91c8974] {
+  text-align: right;
+}
+.releaseList >div[data-v-d91c8974] {
+  height: 50px;
+  margin: 20px 0;
+}
+.releaseList .dd[data-v-d91c8974] {
+  background: url(../../static/img/dd.png?18941fa618c720c7d2437a70295fe052) no-repeat;
+}
+.releaseList .amazon[data-v-d91c8974] {
+  background: url(../../static/img/amazon.png?22d5e0de80e6060f7642c7b4694d6c0d) no-repeat;
+}
+.releaseList .qq[data-v-d91c8974] {
+  background: url(../../static/img/qq.png?0ef45053379647c8b428ccf46fd1dde4) no-repeat;
+}
+.releaseList .zhangyue[data-v-d91c8974] {
+  background: url(../../static/img/zhangyue.png?ded109fb31df51acb808822b907e7381) no-repeat;
+}
+.top[data-v-d91c8974] {
+  margin: 0 0 30px 30px;
+}
+.typesWrap .li[data-v-d91c8974] {
+  display: inline-block;
+  margin: 0 35px;
+}
+.typesWrap .li .type[data-v-d91c8974] {
+  width: 118px;
+  height: 160px;
+  background: #e9edf5;
+  border: 1px solid #e3e3e3;
+  line-height: 160px;
+  font-size: 28px;
+  color: #cad1e0;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+.typesWrap .li .type.active[data-v-d91c8974] {
+  border: 1px solid #f10215;
+  color: #f10215;
+}
+.typesWrap .li .type .progress[data-v-d91c8974] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  font-size: 14px;
+  color: #fff;
+}
+.typesWrap .li .tip[data-v-d91c8974] {
+  font-size: 14px;
+  color: #999;
+  margin: 15px 0;
+}
+
+.groupWrap[data-v-82bd0f98] {
+  display: inline-block;
+  width: 209px;
+  min-height: 545px;
+  background: #fff;
+  position: relative;
+}
+.formWrap[data-v-82bd0f98] {
+  text-align: center;
+}
+.red[data-v-82bd0f98] {
+  background: #efefef;
+}
+.licontent[data-v-82bd0f98] {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 13px;
+  position: relative;
+  cursor: pointer;
+}
+.licontent[data-v-82bd0f98]:first-child {
+  text-indent: 10px;
+  font-size: 16px;
+  color: #424857;
+  font-weight: 500;
+}
+.licontent[data-v-82bd0f98]:first-child:after {
+  border-bottom: 1px solid #e3e6ec;
+  z-index: 10;
+}
+.licontent:first-child .name[data-v-82bd0f98] {
+  font-size: 16px;
+  display: initial;
+}
+.licontent[data-v-82bd0f98]:first-child:before {
+  content: " ";
+  width: 3px;
+  height: 19px;
+  background: #39baa1;
+  position: absolute;
+  z-index: 10;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+.licontent .name[data-v-82bd0f98] {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  width: 150px;
+  font-size: 14px;
+  position: relative;
+}
+.licontent .name .title[data-v-82bd0f98] {
+  max-width: 110px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.licontent[data-v-82bd0f98]:after {
+  content: " ";
+  position: absolute;
+  width: 188px;
+  border-bottom: 1px dashed #e3e6ec;
+  bottom: 0;
+  left: 10px;
+}
+.licontent .btns[data-v-82bd0f98] {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  letter-spacing: 7px;
+}
+.licontent .btns >span[data-v-82bd0f98] {
+  display: inline-block;
+  width: 50%;
+  font-size: 0px;
+  height: 50px;
+}
+.licontent .btns >span >i[data-v-82bd0f98] {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+.licontent .btns >span >i.el-icon-edit[data-v-82bd0f98] {
+  color: #44c3aa;
+}
+.licontent .btns >span >i.el-icon-delete[data-v-82bd0f98] {
+  color: #e75f5f;
+}
+.addGroupBtnWrap[data-v-82bd0f98] {
+  text-align: center;
+  margin: 15px 0;
+}
+.addGroupBtnWrap .addGroupBtn[data-v-82bd0f98] {
+  display: inline-block;
+  text-align: center;
+  width: 124px;
+  height: 30px;
+  border: 1px solid #999;
+  line-height: 30px;
+  cursor: pointer;
+}
+

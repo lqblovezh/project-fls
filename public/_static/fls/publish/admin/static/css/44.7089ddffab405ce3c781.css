@@ -1,0 +1,129 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:01:49",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "b17f442a6",
+ *     "message": [
+ *       "commit b17f442a62eb78bc9ab78ffe68e3afb76c3e3548",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 14:48:13 2019 +0800",
+ *       "    xxxxxx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+.btns[data-v-17e4f53a] {
+  text-align: right;
+}
+.fenmian[data-v-17e4f53a] {
+  height: 200px;
+  margin-left: 25px;
+}
+.fenmian .label[data-v-17e4f53a] {
+  text-align: left;
+}
+.previewImgUrl[data-v-17e4f53a] {
+  max-width: 250px;
+}
+.rowWrap .left[data-v-17e4f53a] {
+  width: 150px;
+  min-width: 150px;
+}
+.rowWrap .right[data-v-17e4f53a] {
+  width: 350px;
+  margin-left: 10px;
+}
+.rowWrap .btn[data-v-17e4f53a] {
+  margin-left: 20px;
+}
+.meta .btns[data-v-17e4f53a] {
+  margin: 50px 50px 0 0;
+}
+.metaadd[data-v-17e4f53a] {
+  text-align: right;
+  margin: 50px 50px;
+}
+.muluWrap .left[data-v-17e4f53a] {
+  width: 300px;
+  background: #f00;
+  display: inline-block;
+  overflow: auto;
+}
+.muluWrap .right[data-v-17e4f53a] {
+  width: calc(100% - 300px);
+  display: inline-block;
+  min-height: 500px;
+}
+.imgSizeWrap[data-v-17e4f53a] {
+  height: 30px;
+  margin-top: 30px;
+}
+.imgSizeWrap .imgSize[data-v-17e4f53a] {
+  display: inline-block;
+  line-height: 20px;
+  margin-left: 130px;
+  font-size: 14px;
+  color: #333;
+}
+
+.group-inline[data-v-cce7657c] {
+  margin: 0 10px;
+  display: inline-block;
+}
+.form-control[data-v-cce7657c] {
+  width: 200px;
+}
+.el-icon-download[data-v-cce7657c] {
+  color: #44c3aa;
+}
+.clear[data-v-cce7657c] {
+  position: absolute;
+  top: 95px;
+  left: 410px;
+  color: #d9d9d9;
+  border-radius: 50%;
+  background: #efefef;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.clear2[data-v-cce7657c] {
+  position: absolute;
+  top: 95px;
+  left: 630px;
+  color: #d9d9d9;
+  border-radius: 50%;
+  background: #efefef;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.clear3[data-v-cce7657c] {
+  position: absolute;
+  top: 95px;
+  left: 850px;
+  color: #d9d9d9;
+  border-radius: 50%;
+  background: #efefef;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+

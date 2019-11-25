@@ -1,0 +1,198 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:01:49",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "b17f442a6",
+ *     "message": [
+ *       "commit b17f442a62eb78bc9ab78ffe68e3afb76c3e3548",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 14:48:13 2019 +0800",
+ *       "    xxxxxx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+.groupWrap[data-v-82bd0f98] {
+  display: inline-block;
+  width: 209px;
+  min-height: 545px;
+  background: #fff;
+  position: relative;
+}
+.formWrap[data-v-82bd0f98] {
+  text-align: center;
+}
+.red[data-v-82bd0f98] {
+  background: #efefef;
+}
+.licontent[data-v-82bd0f98] {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 13px;
+  position: relative;
+  cursor: pointer;
+}
+.licontent[data-v-82bd0f98]:first-child {
+  text-indent: 10px;
+  font-size: 16px;
+  color: #424857;
+  font-weight: 500;
+}
+.licontent[data-v-82bd0f98]:first-child:after {
+  border-bottom: 1px solid #e3e6ec;
+  z-index: 10;
+}
+.licontent:first-child .name[data-v-82bd0f98] {
+  font-size: 16px;
+  display: initial;
+}
+.licontent[data-v-82bd0f98]:first-child:before {
+  content: " ";
+  width: 3px;
+  height: 19px;
+  background: #39baa1;
+  position: absolute;
+  z-index: 10;
+  margin-top: 15px;
+  margin-left: -10px;
+}
+.licontent .name[data-v-82bd0f98] {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  width: 150px;
+  font-size: 14px;
+  position: relative;
+}
+.licontent .name .title[data-v-82bd0f98] {
+  max-width: 110px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.licontent[data-v-82bd0f98]:after {
+  content: " ";
+  position: absolute;
+  width: 188px;
+  border-bottom: 1px dashed #e3e6ec;
+  bottom: 0;
+  left: 10px;
+}
+.licontent .btns[data-v-82bd0f98] {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  letter-spacing: 7px;
+}
+.licontent .btns >span[data-v-82bd0f98] {
+  display: inline-block;
+  width: 50%;
+  font-size: 0px;
+  height: 50px;
+}
+.licontent .btns >span >i[data-v-82bd0f98] {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+.licontent .btns >span >i.el-icon-edit[data-v-82bd0f98] {
+  color: #44c3aa;
+}
+.licontent .btns >span >i.el-icon-delete[data-v-82bd0f98] {
+  color: #e75f5f;
+}
+.addGroupBtnWrap[data-v-82bd0f98] {
+  text-align: center;
+  margin: 15px 0;
+}
+.addGroupBtnWrap .addGroupBtn[data-v-82bd0f98] {
+  display: inline-block;
+  text-align: center;
+  width: 124px;
+  height: 30px;
+  border: 1px solid #999;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.inputBoxs[data-v-c39bca5a] {
+  display: inline-block;
+  line-height: 40px;
+  height: 40px;
+}
+.inputBoxs >input[data-v-c39bca5a],
+.inputBoxs span[data-v-c39bca5a] {
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+}
+.inputBoxs >input[data-v-c39bca5a] {
+  height: 15px;
+}
+.icon-menu-publish[data-v-c39bca5a] {
+  color: #44c3aa;
+}
+.group-inline[data-v-c39bca5a] {
+  margin: 0 10px;
+  display: inline-block;
+}
+.form-control[data-v-c39bca5a] {
+  width: 160px;
+}
+.mediaList >li[data-v-c39bca5a] {
+  margin-left: 5px;
+  float: left;
+  color: #808080;
+}
+.mediaList .had[data-v-c39bca5a] {
+  color: #000;
+}
+.contList li[data-v-c39bca5a] {
+  display: inline-block;
+  padding-right: 10px;
+}
+.contList .disabled[data-v-c39bca5a] {
+  color: #bdbdbd;
+}
+.notPush[data-v-c39bca5a] {
+  color: #cf2424;
+}
+.pushed[data-v-c39bca5a] {
+  color: #4ac4ac;
+}
+.noPush[data-v-c39bca5a] {
+  color: #d64848;
+}
+.pushing[data-v-c39bca5a] {
+  color: #4ac472;
+}
+.clear[data-v-c39bca5a] {
+  position: absolute;
+  top: 95px;
+  left: 370px;
+  color: #d9d9d9;
+  border-radius: 50%;
+  background: #efefef;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+

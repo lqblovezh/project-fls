@@ -1,0 +1,99 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:10:33",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "95ac4eac7",
+ *     "message": [
+ *       "commit 95ac4eac704fa029807f3f814b494e89f845f835",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 15:09:46 2019 +0800",
+ *       "    xx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+.btns[data-v-2681b87a] {
+  text-align: center;
+}
+.div[data-v-2681b87a] {
+  margin-top: 20px;
+  background: #fff;
+}
+.div .top[data-v-2681b87a] {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+.div .top[data-v-2681b87a],
+.div .bottom[data-v-2681b87a] {
+  height: auto;
+  margin-bottom: 20px;
+}
+.div .top .left[data-v-2681b87a],
+.div .bottom .left[data-v-2681b87a],
+.div .top .right[data-v-2681b87a],
+.div .bottom .right[data-v-2681b87a],
+.div .top .box[data-v-2681b87a],
+.div .bottom .box[data-v-2681b87a] {
+  display: inline-block;
+  margin-right: 40px;
+}
+.div .top .left span[data-v-2681b87a],
+.div .bottom .left span[data-v-2681b87a],
+.div .top .right span[data-v-2681b87a],
+.div .bottom .right span[data-v-2681b87a],
+.div .top .box span[data-v-2681b87a],
+.div .bottom .box span[data-v-2681b87a] {
+  font-size: 14px;
+  margin-right: 20px;
+  color: #666;
+}
+.div .top .list[data-v-2681b87a],
+.div .bottom .list[data-v-2681b87a] {
+  border-bottom: 1px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.div .top .list[data-v-2681b87a]:first-child,
+.div .bottom .list[data-v-2681b87a]:first-child {
+  padding-top: 0;
+}
+.div .top .list[data-v-2681b87a]:last-child,
+.div .bottom .list[data-v-2681b87a]:last-child {
+  border: none;
+}
+.div .top .img[data-v-2681b87a],
+.div .bottom .img[data-v-2681b87a] {
+  width: 250px;
+  height: 100px;
+  margin-right: 40px;
+  object-fit: contain;
+}
+.div .top .el-input[data-v-2681b87a],
+.div .bottom .el-input[data-v-2681b87a] {
+  width: 200px;
+  margin: 0;
+  margin-bottom: 20px;
+  display: block;
+}
+.div .top span[data-v-2681b87a],
+.div .bottom span[data-v-2681b87a] {
+  font-size: 18px;
+  color: 333;
+  line-height: 30px;
+}
+
+.tableWrap[data-v-491c4d66] {
+  width: 97.5%;
+}
+

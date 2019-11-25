@@ -1,0 +1,109 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:10:33",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "95ac4eac7",
+ *     "message": [
+ *       "commit 95ac4eac704fa029807f3f814b494e89f845f835",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 15:09:46 2019 +0800",
+ *       "    xx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+.settingsNavTab[data-v-3e65aec9] {
+  color: #333;
+  min-width: 1200px;
+}
+.settingsNavTab ul[data-v-3e65aec9] {
+  background: #f2f2f2;
+  line-height: 50px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 13px;
+  min-width: 660px;
+  font-family: '\5FAE\8F6F\96C5\9ED1';
+}
+.settingsNavTab ul li[data-v-3e65aec9] {
+  float: left;
+  width: 218px;
+  height: 50px;
+  margin-right: 2px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.settingsNavTab ul li.active[data-v-3e65aec9] {
+  background: #d7d7d7;
+}
+.settingsNavTab ul li[data-v-3e65aec9]:hover {
+  background: #d7d7d7;
+}
+
+.content[data-v-c81a91cc] {
+  padding: 0 16px;
+  min-width: 800px;
+}
+.content .info[data-v-c81a91cc] {
+  color: #999;
+  font-size: 12px;
+  padding: 20px 0;
+}
+.content .info span[data-v-c81a91cc] {
+  vertical-align: sub;
+  padding-left: 5px;
+}
+.content .box[data-v-c81a91cc] {
+  padding: 20px 0;
+  overflow: hidden;
+}
+.content .box .item[data-v-c81a91cc] {
+  float: left;
+  text-align: center;
+  font-size: 12px;
+}
+.content .box .item .icon[data-v-c81a91cc] {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 22px;
+  background: no-repeat center center;
+  background-size: 80%;
+}
+.content .box .item .txt[data-v-c81a91cc] {
+  line-height: 40px;
+}
+.content .line[data-v-c81a91cc] {
+  color: rgba(255,255,255,0);
+  height: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.btn[data-v-c81a91cc] {
+  color: #fff;
+}
+.dialog .icon[data-v-c81a91cc] {
+  padding: 0 30px 0 5px;
+  max-height: 50px;
+  max-width: 50px;
+}
+.imgSize[data-v-c81a91cc] {
+  margin-bottom: 22px;
+}
+.bannerSize[data-v-c81a91cc] {
+  font-size: 14px;
+  color: #333;
+  padding-left: 10px;
+}
+

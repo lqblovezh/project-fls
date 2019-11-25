@@ -1,0 +1,170 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:01:49",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "b17f442a6",
+ *     "message": [
+ *       "commit b17f442a62eb78bc9ab78ffe68e3afb76c3e3548",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 14:48:13 2019 +0800",
+ *       "    xxxxxx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+#readerIframe[data-v-12ab380f] {
+  height: 70vh;
+  width: 100%;
+}
+.el-icon-close[data-v-12ab380f] {
+  position: absolute;
+  cursor: pointer;
+  float: right;
+  display: block;
+  width: 20px;
+  height: 20px;
+  right: 20px;
+  z-index: 2;
+}
+.modular[data-v-12ab380f] {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+.thirdParty .content[data-v-12ab380f] {
+  margin-top: 35px;
+  border: 1px solid #e1e1e1;
+}
+.thirdParty .content .left[data-v-12ab380f] {
+  display: inline-block;
+  width: 230px;
+  text-align: center;
+  margin: 0 auto;
+}
+.thirdParty .content .left li[data-v-12ab380f] {
+  width: 186px;
+  height: 56px;
+  line-height: 56px;
+  border-radius: 5px;
+  margin-top: 30px;
+  border: 1px solid #e1e1e1;
+  background-color: #fff;
+  cursor: pointer;
+  display: inline-block;
+}
+.thirdParty .content .left li[data-v-12ab380f]:hover {
+  border-color: #44c3aa;
+}
+.thirdParty .content .left li div[data-v-12ab380f] {
+  display: inline-block;
+  width: 40px;
+  height: 32px;
+  position: relative;
+  top: 50%;
+  margin-top: -16px;
+  margin-right: 10px;
+}
+.thirdParty .content .left li.weChat div[data-v-12ab380f] {
+  background-image: url(../../static/img/icon-weChat.png?934602263f976906d1c2a986576f4f8b);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.thirdParty .content .left li.sina div[data-v-12ab380f] {
+  left: -10px;
+  background-image: url(../../static/img/icon-sina.png?83214f4718d465554552261f8c6bb338);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.thirdParty .content .right[data-v-12ab380f] {
+  display: inline-block;
+  width: calc(100% - 230px);
+}
+.thirdParty .content .right .accountExec li[data-v-12ab380f] {
+  height: 50px;
+  line-height: 50px;
+}
+.thirdParty .content .right .accountExec li div[data-v-12ab380f] {
+  display: inline-block;
+  width: 40px;
+  height: 32px;
+  position: relative;
+  top: 50%;
+  margin-top: -16px;
+}
+.thirdParty .content .right .accountExec li.weChat div[data-v-12ab380f] {
+  background-image: url(../../static/img/icon-weChat.png?934602263f976906d1c2a986576f4f8b);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.thirdParty .content .right .accountExec li.sina div[data-v-12ab380f] {
+  background-image: url(../../static/img/icon-sina.png?83214f4718d465554552261f8c6bb338);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.thirdParty .content .right .accountExec li >span[data-v-12ab380f] {
+  padding-left: 10px;
+}
+.thirdParty .content .right .accountExec li .noAccount[data-v-12ab380f] {
+  color: #44c3aa;
+}
+.title[data-v-12ab380f] {
+  color: #424857;
+  font-size: 16px;
+  position: relative;
+  padding-left: 20px;
+  line-height: 36px;
+  border-bottom: 1px solid #e3e6ec;
+}
+.title[data-v-12ab380f]:after {
+  content: '';
+  display: block;
+  width: 3px;
+  height: 16px;
+  top: 50%;
+  left: 0;
+  margin-top: -8px;
+  background-color: #44c3aa;
+  position: absolute;
+}
+.table thead tr[data-v-12ab380f] {
+  border-left: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+.table td[data-v-12ab380f] {
+  border-left: 1px solid #e1e1e1;
+  text-align: left;
+  font-size: 14px;
+}
+.table td h3[data-v-12ab380f] {
+  font-weight: bold;
+  line-height: 34px;
+}
+.table td p[data-v-12ab380f] {
+  color: #777;
+  line-height: 20px;
+}
+.table tbody[data-v-12ab380f] {
+  color: #555;
+}
+.table tbody td[data-v-12ab380f] {
+  padding-left: 30px;
+}
+.table tbody >tr[data-v-12ab380f]:hover {
+  background-color: #fff;
+}
+

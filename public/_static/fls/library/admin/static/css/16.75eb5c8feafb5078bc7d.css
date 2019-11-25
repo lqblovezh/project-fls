@@ -1,0 +1,125 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:10:33",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "95ac4eac7",
+ *     "message": [
+ *       "commit 95ac4eac704fa029807f3f814b494e89f845f835",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 15:09:46 2019 +0800",
+ *       "    xx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+.box[data-v-3b18c204] {
+  background: #ececec;
+  padding: 0 15px;
+  min-height: 650px;
+  min-width: 1660px;
+}
+.box .top[data-v-3b18c204] {
+  margin-bottom: 20px;
+}
+.box .top .group-inline .form-control[data-v-3b18c204] {
+  width: 100%;
+  height: 40px;
+}
+.box .list[data-v-3b18c204] {
+  border: 15px solid #fff;
+  background: #fff;
+  width: 100%;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.box .list thead[data-v-3b18c204] {
+  background: #ececec;
+}
+.box .list thead tr[data-v-3b18c204] {
+  background: #ececec;
+}
+.box .list thead tr th[data-v-3b18c204] {
+  text-align: center;
+  padding: 18px 10px;
+}
+.box .list tbody tr[data-v-3b18c204]:nth-child(2n) {
+  background: #eee;
+}
+.box .list tbody tr td[data-v-3b18c204] {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+.box .page[data-v-3b18c204] {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.userInfo .head[data-v-3b18c204] {
+  display: flex;
+}
+.userInfo .head img[data-v-3b18c204] {
+  max-width: 130px;
+  max-height: 130px;
+}
+.userInfo .head .info[data-v-3b18c204] {
+  display: flex;
+  flex-wrap: wrap;
+}
+.userInfo .head .info .item[data-v-3b18c204] {
+  display: flex;
+  margin: 0 10px;
+}
+.userInfo .head .info .item span[data-v-3b18c204] {
+  line-height: 30px;
+  display: inline-block;
+}
+.userInfo .head .info .item .width[data-v-3b18c204] {
+  width: 150px;
+  margin: 0 10px;
+}
+.userInfo .head .info .item .auth[data-v-3b18c204] {
+  margin: 0 10px;
+}
+.userInfo .saleInfo[data-v-3b18c204] {
+  margin: 20px 0;
+}
+.userInfo .saleInfo span[data-v-3b18c204] {
+  padding: 15px;
+}
+.userInfo .title[data-v-3b18c204] {
+  border-bottom: 1px solid #999;
+  margin: 30px 0 0 0;
+}
+.userInfo .imgList[data-v-3b18c204] {
+  margin-bottom: 20px;
+  height: 200px;
+}
+.userInfo .imgList .item[data-v-3b18c204] {
+  float: left;
+  width: 150px;
+  text-align: center;
+  margin-right: 5px;
+}
+.userInfo .imgList .item .img[data-v-3b18c204] {
+  height: 190px;
+  margin-bottom: 10px;
+  background: no-repeat;
+  background-size: 100%;
+}
+.userInfo .noInfo[data-v-3b18c204] {
+  padding: 20px 0;
+  color: #999;
+  text-align: center;
+}
+

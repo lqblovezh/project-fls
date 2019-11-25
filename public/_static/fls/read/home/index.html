@@ -1,0 +1,46 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,minimum-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title></title><style>@keyframes pre-loading {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes pre-loading-hide {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      .my-pre-mask.load-hide {
+        animation: pre-loading-hide 0.6s linear forwards;
+      }
+      .my-pre-mask {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        z-index: 300000;
+      }
+      .my-pre-mask > .pre-loading {
+        margin-top: 45vh;
+        text-align: center;
+      }
+      .my-pre-mask > .pre-loading > .loading-text {
+        font-size: 15px;
+      }
+      .my-circular {
+        animation: pre-loading 1s linear infinite;
+        height: 60px;
+        width: 60px;
+        color: #fff;
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: 0;
+        stroke-width: 4;
+        stroke: #0980bb;
+        stroke-linecap: round;
+      }</style><script src="config_js"></script><script src="/_static/fls/read/home/static/js/polyfill.min.js"></script><script src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script><script src="/cdn/reader3/3.1.x/reader3.js"></script><link rel="stylesheet" href="/cdn/reader3/3.1.x/reader3.css"><link rel="stylesheet" href="/cdn/reader3/3.1.x/theme/mobile/style.css"><link href="/_static/fls/read/home/static/css/main.69fc0beefbe8c32bdd79.css" rel="stylesheet"></head><div class="my-pre-mask"><div class="pre-loading"><svg class="my-circular" viewBox="25 25 50 50"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><div class="loading-text">加载中...</div></div></div><body id="body"><div id="app"></div><script src="/_static/fls/read/home/static/js/main.ab862e12a816cbeb4a37.js"></script></body></html>

@@ -1,0 +1,25 @@
+/*!
+ * {
+ *   "buildtime": "2019-06-17 15:13:29",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "ecb058dd8",
+ *     "message": [
+ *       "commit ecb058dd8be16255580b36968fc3831fa41d5989",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Mon Jun 17 15:12:32 2019 +0800",
+ *       "    'xxxxx'"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */.comp-study-video-menu-list{width:260px;box-sizing:border-box;overflow:auto;position:absolute;top:0;bottom:0}.comp-study-video-menu-list>.left{width:100%}.comp-study-video-menu-list>.left>.mtop{padding:0 20px;height:50px;line-height:50px;border-bottom:1px solid #5d6066}.comp-study-video-menu-list>.left>.mtop>div{height:51px;padding:0 10px}.comp-study-video-menu-list>.left>.ls{padding:0 20px}.comp-study-video-menu-list>.left>.ls>.item{margin:30px 0;line-height:20px}.comp-study-video-menu-list>.left>.ls>.item>.gp>.pitem{margin:20px 0}.comp-study-video-menu-list>.left>.ls>.item>.gp>.pitem>.gp>.name span:first-child{margin-left:10px;width:100px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:1}.comp-study-video-menu-list>.left>.ls>.item>.gp>.pitem>.gp>.citem{margin:20px 0;padding-right:10px;padding-left:15px}.comp-study-video-menu-list>.left>.ls>.item>div{margin:10px 0}.comp-my-video>.wrap>.video-js{width:100%;height:720px;margin:auto}.root[data-v-38cd631e]{width:100%;height:100%;text-align:initial}.text-center{text-align:center}.page-video ::-webkit-scrollbar{width:12px;height:8px;background-color:#000}.page-video ::-webkit-scrollbar-track{background-color:#333}.page-video ::-webkit-scrollbar-thumb{border-radius:5px;background-color:#666;min-width:1200px}.page-video>.wrap>.head{height:60px;line-height:60px}.page-video>.wrap>.head>.btns{margin-left:20px}.page-video>.wrap>.container{position:relative}.page-video>.wrap>.container>.mediaWrap{position:relative;margin-left:260px;height:100%;box-sizing:border-box;width:calc(100% - 260px)}.page-video>.wrap>.container>.mediaWrap>.timecalculate{position:absolute;right:20px;top:20px;z-index:99}.page-video>.wrap>.container>.mediaWrap>.timecalculate.black{color:#000}.page-video>.wrap>.container>.mediaWrap.hasPadding{padding:30px}.page-video>.wrap>.container>.mediaWrap>.name{position:absolute;left:50%;margin-top:30px;bottom:10px;transform:translateX(-50%)}.page-video>.wrap>.container>.mediaWrap>.reader{width:100%}.page-video>.wrap>.container>.mediaWrap>.reader>.read>img{height:400px;-o-object-fit:contain;object-fit:contain}.page-video>.wrap>.container>.mediaWrap>.reader>.read>.btn{font-size:20px}.page-video>.wrap>.container>.mediaWrap .reader-layout{height:100%}.page-video>.wrap>.other{min-height:70px}

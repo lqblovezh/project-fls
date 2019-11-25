@@ -1,0 +1,47 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:01:49",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "b17f442a6",
+ *     "message": [
+ *       "commit b17f442a62eb78bc9ab78ffe68e3afb76c3e3548",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 14:48:13 2019 +0800",
+ *       "    xxxxxx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+.btn-active[data-v-13d4c816] {
+  background-color: #60cff3;
+  color: #fff;
+}
+.groupList[data-v-13d4c816] {
+  margin: 20px 0;
+}
+.group-inline[data-v-13d4c816] {
+  width: 150px;
+  vertical-align: middle;
+}
+.download-btn[data-v-13d4c816] {
+  display: inline-block;
+  line-height: 1;
+  margin-right: 10px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  color: #44c3aa;
+  border: 1px solid #44c3aa;
+  font-size: 12px;
+}
+

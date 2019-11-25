@@ -1,0 +1,25 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-17 10:58:50",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "a51842995",
+ *     "message": [
+ *       "commit a51842995ac312d7b576d646ab99c7a4f3f34d0b",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Wed Jul 17 10:58:23 2019 +0800",
+ *       "    xxx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */.comp-item{display:-webkit-box;display:-ms-flexbox;display:flex;height:1.2rem;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:0 22px}.comp-item>.icon{margin:0 16px 0 0}.comp-item>.icon>span{display:inline-block}.comp-item>.comp-item__name{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-ms-flex:1;flex:1;height:100%;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-bottom:1px solid #9b9b9b}.page-user{height:100vh}.page-user>.bg{position:fixed;top:0;right:0;bottom:0;left:0;z-index:-10}.page-user .page-user__title{margin:0}.page-user>.page-user__bg{height:100%;padding-bottom:65px;-webkit-box-sizing:border-box;box-sizing:border-box;overflow:auto}.page-user>.page-user__bg .page-user__top{max-height:154px;background-color:rgba(37,39,44,.5)}.page-user>.page-user__bg .page-user__top>.page-user__fix{padding:19px 15px 0}.page-user>.page-user__bg .page-user__top>.page-user__fix button{margin:0;padding:0;width:100px;height:30px;line-height:30px;background-color:#f15a4a;border:none;border-radius:999px;outline:none}.page-user>.page-user__bg .page-user__top>.page-user__info{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;padding:30px 23px 0}.page-user>.page-user__bg .page-user__top>.page-user__info>.page-user__pic{position:relative;width:90px;height:90px;background-color:#676a7b;border:2px solid #f6d27e;border-radius:50%}.page-user>.page-user__bg .page-user__top>.page-user__info>.page-user__pic>img{width:90px;height:90px;border-radius:50%;-o-object-fit:fill;object-fit:fill}.page-user>.page-user__bg .page-user__top>.page-user__info>.page-user__pic>.icon{position:absolute;right:0;bottom:0}.page-user>.page-user__bg .page-user__top>.page-user__info>.page-user__name{margin-left:23px}.page-user>.page-user__bg .page-user__top>.page-user__info>.page-user__name .info_width{max-height:60px;line-height:20px;overflow:hidden;text-overflow:ellipsis}.page-user>.page-user__bg .page-user__top>.page-user__info>.page-user__name p{margin:0;padding:0}.page-user>.page-user__bg .page-user__top>.page-user__info>.page-user__name p.username{font-size:18px;margin-bottom:10px}.page-user>.page-user__bg .page-user__top>.page-user__info>.page-user__unlogin{position:absolute;top:30px;left:143px}.page-user>.page-user__bg .page-user__top>.page-user__info>.page-user__unlogin p{margin:0}.page-user>.page-user__bg>.page-user__menu{margin-left:14px;margin-right:14px;color:#fff;border-radius:5px;background-color:rgba(55,57,68,.8)}.page-user>.page-user__bg>.page-user__menu>.comp-item:last-child .comp-item__name{border:none}.page-user>.page-user__bg>.page-user__menu.mt30{margin-top:30px}.page-user>.page-user__bg>.page-user__menu.mt20{margin-top:20px}.page-user>.page-user__bg>p>.btn-logout{width:260px;height:40px;border:none;outline:none;color:#fff;border-radius:20px;background:radial-gradient(#f6d27e,#b1936a)}

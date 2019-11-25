@@ -1,0 +1,200 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:10:33",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "95ac4eac7",
+ *     "message": [
+ *       "commit 95ac4eac704fa029807f3f814b494e89f845f835",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 15:09:46 2019 +0800",
+ *       "    xx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+.settingsNavTab ul[data-v-199ab234] {
+  background: #f2f2f2;
+  line-height: 50px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 13px;
+  min-width: 660px;
+  font-family: '\5FAE\8F6F\96C5\9ED1';
+}
+.settingsNavTab ul li[data-v-199ab234] {
+  float: left;
+  width: 100px;
+  margin-right: 2px;
+  transition: 0.3s;
+  color: #333;
+}
+.settingsNavTab ul li.active[data-v-199ab234] {
+  background: #d7d7d7;
+}
+.settingsNavTab ul li[data-v-199ab234]:hover {
+  background: #d7d7d7;
+  cursor: pointer;
+}
+
+.ui-cascader {
+  position: relative;
+}
+.ui-cascader__item {
+  position: relative;
+  line-height: 45px;
+  text-indent: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.ui-cascader__item p {
+  border-bottom: 1px solid #ddd;
+}
+.ui-cascader__item.active >p {
+  color: #409eff;
+}
+.ui-cascader__item.active >.icon-enter {
+  transform: rotate(90deg);
+}
+.ui-cascader__item span {
+  position: absolute;
+  top: 15px;
+  right: 5px;
+}
+.ui-cascader .ui-cascader {
+  padding-left: 20px;
+}
+
+.column-modal {
+  position: fixed;
+  width: 70%;
+  left: 15%;
+  top: 20%;
+  border-radius: 10px;
+  border: 1px solid #000;
+  box-shadow: 0 0 3px #ccc;
+}
+.modal-btn-group {
+  margin-bottom: 10px;
+}
+.tree {
+  position: relative;
+  min-width: 1300px;
+  padding: 20px;
+}
+.tree .ib {
+  display: inline-block;
+}
+.tree .options {
+  width: 170px;
+  text-align: center;
+}
+.tree .time,
+.tree .keyword,
+.tree .code {
+  float: right;
+  width: 230px;
+  line-height: 40px;
+}
+.tree .btn {
+  margin: 20px 0;
+}
+.tree .choice {
+  margin-right: 100px;
+  float: right;
+}
+.tree input[disabled] {
+  background-color: #f5efef;
+  cursor: not-allowed;
+}
+.tree >>> .el-tree-node__content {
+  height: 50px;
+  line-height: 50px;
+}
+.tree >>> .el-tree-node__content .custom-tree-node .form-control {
+  width: 150px;
+}
+.tree >>> .el-tree-node__content .custom-tree-node .code button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.cascader-container {
+  padding: 20px 0;
+}
+.cascader-container .cascader-wrap {
+  height: 400px;
+  overflow-y: auto;
+}
+.cascader-container .cascader-foot {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.detailDialog[data-v-0102bab4] .btn {
+  margin: 20px 0;
+}
+.icon.up[data-v-0102bab4] {
+  transform: rotate(90deg);
+  display: inline-block;
+}
+.icon.down[data-v-0102bab4] {
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+.textarea[data-v-0102bab4] {
+  width: 100%;
+  resize: none;
+}
+.tree-img[data-v-0102bab4] {
+  height: 40px;
+  margin-left: 50px;
+}
+.tree-img .icon[data-v-0102bab4] {
+  color: #44c3aa;
+}
+.tree[data-v-0102bab4] {
+  position: relative;
+  min-width: 1300px;
+  padding: 20px;
+}
+.tree .options[data-v-0102bab4] {
+  width: 170px;
+  text-align: center;
+}
+.tree .options .icon[data-v-0102bab4] {
+  color: #44c3aa;
+}
+.tree .time[data-v-0102bab4],
+.tree .keyword[data-v-0102bab4],
+.tree .code[data-v-0102bab4] {
+  float: right;
+  width: 200px;
+  line-height: 40px;
+}
+.tree .btn[data-v-0102bab4] {
+  margin: 20px 0;
+}
+.tree[data-v-0102bab4] .el-tree-node__content {
+  height: 50px;
+  line-height: 50px;
+}
+.tree[data-v-0102bab4] .el-tree-node__content .custom-tree-node {
+  width: 100%;
+}
+.tree[data-v-0102bab4] .el-tree-node__content .custom-tree-node .form-control {
+  width: 150px;
+}
+

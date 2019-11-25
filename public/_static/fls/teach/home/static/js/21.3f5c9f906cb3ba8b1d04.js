@@ -1,0 +1,26 @@
+/*!
+ * {
+ *   "buildtime": "2019-06-17 15:13:29",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "ecb058dd8",
+ *     "message": [
+ *       "commit ecb058dd8be16255580b36968fc3831fa41d5989",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Mon Jun 17 15:12:32 2019 +0800",
+ *       "    'xxxxx'"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{1012:function(t,e,n){"use strict";var a=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"page-course-answer"},[n("div",{staticClass:"fix"},[n("div",{staticClass:"btn fr"},[n("Tbutton",{attrs:{type:"og"},nativeOn:{click:function(e){return t.openReplay(e)}}},[n("span",{staticClass:"el-icon-edit"}),n("span",[t._v("我要提问")])])],1)]),n("div",{staticClass:"ls"},t._l(t.teacherAnswerList,function(e){return n("div",{key:e.id,staticClass:"item"},[n("div",{staticClass:"question"},[n("AnswerItem",{attrs:{type:"question",name:e.title,to_fromUserName:e.from_user_name,val:e.content,time:e.update_time}})],1),e.reply.length?n("div",{staticClass:"answer"},t._l(e.reply,function(t){return n("div",{key:t.id,staticClass:"citem"},[n("AnswerItem",{attrs:{type:"answer",to_fromUserName:e.to_user_name,name:t.title,val:t.content,time:t.update_time}})],1)}),0):t._e()])}),0),n("div",{staticClass:"page"},[n("PageMy",{attrs:{total:t.taPage.total,pageOffset:t.taPage.pageOffset,pageNum:t.taPage.pageNum},on:{currentChange:t.pageChangeHandler}})],1)])},s=[];n.d(e,"a",function(){return a}),n.d(e,"b",function(){return s})},1041:function(t,e,n){"use strict";var a=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"comp-answer-item"},[n("div",{staticClass:"wrap"},[n("div",{staticClass:"type f16 c_f",class:t.items[t.type].class},[t._v(t._s(t.items[t.type].name)+" ")]),n("div",{staticClass:"content"},[n("div",{staticClass:"name"},[n("span",{staticClass:"f13 fr c_6"},[t._v(t._s(t.items[t.type].timeName)+" ："+t._s(t.time))]),n("div",{staticClass:"f16"},[t._v(t._s(t.to_fromUserName)+"  "+t._s(t.name))])]),n("div",{staticClass:"val c_3 f14"},[t._v(t._s(t.val))])])])])},s=[];n.d(e,"a",function(){return a}),n.d(e,"b",function(){return s})},425:function(t,e,n){"use strict";n.r(e);var a=n(1012),s=n(608);for(var i in s)"default"!==i&&function(t){n.d(e,t,function(){return s[t]})}(i);n(942);var r=n(0),u=Object(r.a)(s.default,a.a,a.b,!1,null,null,null);e.default=u.exports},608:function(t,e,n){"use strict";n.r(e);var a=n(609),s=n.n(a);for(var i in a)"default"!==i&&function(t){n.d(e,t,function(){return a[t]})}(i);e.default=s.a},609:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var a,s=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var n=arguments[e];for(var a in n)Object.prototype.hasOwnProperty.call(n,a)&&(t[a]=n[a])}return t},i=n(940),r=(a=i)&&a.__esModule?a:{default:a},u=n(22);e.default={components:{AnswerItem:r.default},mounted:function(){this.getAnswer()},computed:s({},(0,u.mapState)({detail:function(t){return t.course.courseDetail},teacherAnswerList:function(t){return t.course.teacherAnswerList},taPage:function(t){return t.course.taPage}})),methods:{getAnswer:function(){var t={course_id:this.$route.query.id,to_user_id:this.detail.teach_user.id};return this.$store.dispatch("course/getTeacherAnswer",t)},openReplay:function(){var t=this;this.$isUser()&&this.$openReplyDialog({headname:"添加问题",tname:"问题标题",valname:"问题描述"}).then(function(e){var n=e.val,a=e.title,s={course_id:t.$route.query.id,type:"answering_question",content:n,title:a,to_user_id:t.detail.teach_user.id};t.$service.message.sendMsg(s).then(function(e){t.$message.success("提问成功!"),t.getAnswer()})}).catch(function(t){})},pageChangeHandler:function(t){this.taPage.pageNum=t,this.getAnswer()}}}},610:function(t,e,n){"use strict";n.r(e);var a=n(611),s=n.n(a);for(var i in a)"default"!==i&&function(t){n.d(e,t,function(){return a[t]})}(i);e.default=s.a},611:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default={props:{val:{},name:{default:"标题"},time:{default:"2018-10-11"},type:{default:"question"},to_fromUserName:{}},data:function(){return{items:{question:{name:"问",timeName:"提问时间",class:"c_blue2_bg"},answer:{name:"答",timeName:"解答时间",class:"c_gn2_bg"}}}}}},612:function(t,e,n){},613:function(t,e,n){},940:function(t,e,n){"use strict";n.r(e);var a=n(1041),s=n(610);for(var i in s)"default"!==i&&function(t){n.d(e,t,function(){return s[t]})}(i);n(941);var r=n(0),u=Object(r.a)(s.default,a.a,a.b,!1,null,null,null);e.default=u.exports},941:function(t,e,n){"use strict";var a=n(612);n.n(a).a},942:function(t,e,n){"use strict";var a=n(613);n.n(a).a}}]);

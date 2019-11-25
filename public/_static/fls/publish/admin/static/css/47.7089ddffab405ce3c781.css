@@ -1,0 +1,150 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:01:49",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "b17f442a6",
+ *     "message": [
+ *       "commit b17f442a62eb78bc9ab78ffe68e3afb76c3e3548",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 14:48:13 2019 +0800",
+ *       "    xxxxxx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+.grid-content[data-v-713be441] {
+  width: 300px;
+  margin-right: 30px;
+}
+.iconRotate i[data-v-713be441] {
+  color: #f00;
+}
+.btns[data-v-713be441] {
+  text-align: right;
+}
+.fenmian[data-v-713be441] {
+  height: 200px;
+  margin-left: 25px;
+}
+.fenmian .label[data-v-713be441] {
+  text-align: left;
+}
+.previewImgUrl[data-v-713be441] {
+  max-width: 250px;
+}
+.rowWrap .left[data-v-713be441] {
+  width: 150px;
+  min-width: 150px;
+}
+.rowWrap .right[data-v-713be441] {
+  width: 350px;
+  margin-left: 10px;
+}
+.rowWrap .btn[data-v-713be441] {
+  margin-left: 20px;
+}
+.meta .btns[data-v-713be441] {
+  margin: 50px 50px 0 0;
+}
+.metaadd[data-v-713be441] {
+  text-align: right;
+  margin: 50px 50px;
+}
+.muluWrap .left[data-v-713be441] {
+  width: 300px;
+  background: #f00;
+  display: inline-block;
+  overflow: auto;
+}
+.muluWrap .right[data-v-713be441] {
+  width: calc(100% - 300px);
+  display: inline-block;
+  min-height: 500px;
+}
+.th-name[data-v-713be441] {
+  height: initial;
+}
+.imgSizeWrap[data-v-713be441] {
+  height: 30px;
+  margin-top: 30px;
+}
+.imgSizeWrap .imgSize[data-v-713be441] {
+  display: inline-block;
+  line-height: 20px;
+  margin-left: 130px;
+  font-size: 14px;
+  color: #333;
+}
+
+.group-inline[data-v-3a3945a6] {
+  margin: 0 10px;
+  display: inline-block;
+}
+.form-control[data-v-3a3945a6] {
+  width: 200px;
+}
+.cover-photo[data-v-3a3945a6] {
+  max-width: 47px;
+  max-height: 59px;
+  vertical-align: middle;
+}
+.th-name[data-v-3a3945a6] {
+  cursor: default;
+}
+.bookName[data-v-3a3945a6] {
+  width: calc(100% - 70px);
+  display: inline-block;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+.clear[data-v-3a3945a6] {
+  position: absolute;
+  top: 95px;
+  left: 410px;
+  color: #d9d9d9;
+  border-radius: 50%;
+  background: #efefef;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.clear2[data-v-3a3945a6] {
+  position: absolute;
+  top: 95px;
+  left: 630px;
+  color: #d9d9d9;
+  border-radius: 50%;
+  background: #efefef;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.clear3[data-v-3a3945a6] {
+  position: absolute;
+  top: 95px;
+  left: 850px;
+  color: #d9d9d9;
+  border-radius: 50%;
+  background: #efefef;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+

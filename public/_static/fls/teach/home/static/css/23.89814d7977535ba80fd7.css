@@ -1,0 +1,25 @@
+/*!
+ * {
+ *   "buildtime": "2019-06-17 15:13:29",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "ecb058dd8",
+ *     "message": [
+ *       "commit ecb058dd8be16255580b36968fc3831fa41d5989",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Mon Jun 17 15:12:32 2019 +0800",
+ *       "    'xxxxx'"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */.comp-teacher-detail-card{min-height:230px;background-image:linear-gradient(10deg,#46b6b6,#2d87b6)}.comp-teacher-detail-card>.cbox{padding-top:40px}.comp-teacher-detail-card>.cbox>.img>img{width:130px;height:130px;border-radius:50%;border:4px solid #9fcce0;box-sizing:border-box}.comp-teacher-detail-card>.cbox>.content{height:100%;padding-left:170px;padding-right:150px;line-height:30px}.comp-teacher-detail-card>.cbox>.content>p{margin-top:0;margin-bottom:5px}.comp-teacher-detail-card>.cbox>.content>p:first-child{font-weight:700}.comp-teacher-detail-card>.cbox>.content>p.abs{cursor:pointer}.comp-teacher-detail-card>.cbox>.content>p span{color:#ccf5ff}.comp-teacher-detail-card>.cbox>.content>table{width:100%}.comp-teacher-detail-card>.cbox>.content>table td{width:33.33%}.comp-teacher-detail-card>.cbox>.content>table td span{color:#ccf5ff}.comp-teacher-detail-card>.cbox>.btns{top:40px;right:0;margin:0}.comp-teacher-detail-card>.cbox>.btns>.mybtn{width:110px;margin-bottom:15px}.page-teacher-base .router .no-data{background:#fdfdfd;text-align:center;height:600px;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:center;justify-content:center;color:#adadad;border:1px solid #efefef}

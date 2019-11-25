@@ -1,0 +1,25 @@
+/*!
+ * {
+ *   "buildtime": "2019-06-17 15:13:29",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "ecb058dd8",
+ *     "message": [
+ *       "commit ecb058dd8be16255580b36968fc3831fa41d5989",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Mon Jun 17 15:12:32 2019 +0800",
+ *       "    'xxxxx'"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */.comp-user-detail-card{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:center;justify-content:center}.comp-user-detail-card .box>.img{margin:0 38px}.comp-user-detail-card .box>.img>img{width:120px;height:120px;border-radius:50%;border:5px solid #91d8f0;box-sizing:border-box}.comp-user-detail-card .box>.other{width:800px}.comp-user-detail-card .box>.other>div.name{margin-bottom:30px}.comp-user-detail-card .box>.other>div>span{margin-right:40px;padding-left:25px;background-position:0}.comp-user-detail-card .box>.btn{text-align:center;position:absolute;top:50px}.comp-user-detail-card .box>.btn>.btn-out{margin-top:50px}.comp-user-detail-card .box>.share{bottom:10px;right:10px}.page-user-base>.detail-card{padding-top:30px}.page-user-base>.tabs{padding-bottom:70px;padding-top:20px}.page-user-base>.tabs>.conatiner>.nav>.ls{border-bottom:1px solid #e0e0e0;box-sizing:border-box;height:57px}.page-user-base>.tabs>.conatiner>.nav>.ls>.item{text-align:center;line-height:55px;margin:0 25px;padding:0 5px;cursor:pointer;box-sizing:border-box}.page-user-base>.tabs>.conatiner>.router{min-height:300px}.page-user-base>.tabs>.conatiner>.router>div>.no-data{background:#fdfdfd;text-align:center;height:200px;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:center;justify-content:center;color:#adadad;border:1px solid #efefef}.page-user-base>.tabs>.conatiner>.router .page-user-course{padding:30px}.page-user-base>.tabs>.conatiner>.router .page-user-course>.group{padding:20px 0;border-bottom:1px solid #e9eef0}.page-user-base>.tabs>.conatiner>.router .page-user-course>.group:first-child{padding-top:0}

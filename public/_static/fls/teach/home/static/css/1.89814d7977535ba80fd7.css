@@ -1,0 +1,25 @@
+/*!
+ * {
+ *   "buildtime": "2019-06-17 15:13:29",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "ecb058dd8",
+ *     "message": [
+ *       "commit ecb058dd8be16255580b36968fc3831fa41d5989",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Mon Jun 17 15:12:32 2019 +0800",
+ *       "    'xxxxx'"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */.home-menu{background:#fff}.home-menu>.wrap{position:relative;box-sizing:border-box}.home-menu>.wrap>.item{height:77px;line-height:77px;box-sizing:border-box;padding:0 17px}.home-menu>.wrap>.item>.inner{border-bottom:1px dashed #ebebeb}.home-menu>.wrap>.item:last-child .inner{border:none}.home-menu>.wrap>.item:hover{color:#fff;background:#309fc3}.home-menu>.wrap>.item>.right{width:400px;height:100%;position:absolute;left:100%;top:0;background:#fff;z-index:2;border:1px solid #e6e6e6;color:#2d4148;cursor:normal}.home-menu>.wrap>.item>.right>.wrap>.item{padding:0 20px 0 10px}.home-nav>.menu-wrap{height:385px;background-color:#41cce0}.home-nav>.menu-wrap>.content{width:1200px;margin:0 auto;height:100%;position:relative}.home-nav>.menu-wrap>.content>.left{display:inline-block;height:100%;width:220px}.home-nav>.menu-wrap>.content>.right{position:relative;display:inline-block;width:calc(100% - 220px);vertical-align:top;height:100%}.home-nav>.menu-wrap>.content>.right>.swiper-container{width:720px;height:100%;margin-left:25px}.home-nav>.menu-wrap>.content>.right>.swiper-container>.swiper-wrapper{height:90%}.home-nav>.menu-wrap>.content>.right>.swiper-container>.swiper-wrapper>.swiper-slide{width:100%}.home-nav>.menu-wrap>.content>.right>.swiper-container>.swiper-wrapper>.swiper-slide .img{line-height:360px}.home-nav>.menu-wrap>.content>.right>.swiper-container>.swiper-wrapper>.swiper-slide .img img{width:100%;max-height:280px}.home-nav>.menu-wrap>.content>.right>.swiper-container .swiper-pagination{width:100%}.home-nav>.menu-wrap>.content>.right>.swiper-container .swiper-pagination>span{margin:0 4px}.home-nav>.menu-wrap>.content>.right>.qr{margin-top:50px}@media screen and (max-width:1800px){.teach-home>.ad-side-my{display:none}}.teach-home>.ad-side-my>.left,.teach-home>.ad-side-my>.right{position:fixed;z-index:10;top:350px}.teach-home>.ad-side-my>.left{left:32px}.teach-home>.ad-side-my>.right{right:32px}.teach-home>.other-list{width:1200px;margin:0 auto;visibility:hidden}.teach-home>.other-list.vis{visibility:visible}.teach-home>.other-list>.section{margin:30px 0}.teach-home>.other-list>.section .swiper-container>.swiper-wrapper>.swiper-slide{cursor:pointer}.teach-home>.other-list>.section .card-container{text-align:left}.teach-home footer{margin-top:50px}

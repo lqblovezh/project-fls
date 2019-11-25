@@ -1,0 +1,64 @@
+/*!
+ * {
+ *   "buildtime": "2019-07-19 15:10:33",
+ *   "workspace": "F:\\project\\x-book4\\js",
+ *   "username": "Administrator",
+ *   "hostname": "PC201608171616",
+ *   "platform": "win32",
+ *   "git": {
+ *     "branch": "master",
+ *     "hash": "95ac4eac7",
+ *     "message": [
+ *       "commit 95ac4eac704fa029807f3f814b494e89f845f835",
+ *       "Author: YangZai <552396385@qq.com>",
+ *       "Date:   Fri Jul 19 15:09:46 2019 +0800",
+ *       "    xx"
+ *     ],
+ *     "user": "YangZai",
+ *     "email": "552396385@qq.com",
+ *     "remote": [
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (fetch)",
+ *       "origin http://gitlab.kf.gli.cn/xcloud/x-book4.git (push)"
+ *     ]
+ *   }
+ * }
+ */
+.headGuide[data-v-07046f8c] {
+  padding: 20px;
+  width: 1600px;
+}
+.headGuide .logo[data-v-07046f8c] {
+  width: 78px;
+  height: 44px;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+}
+.headGuide .logo img[data-v-07046f8c] {
+  max-width: 100%;
+  max-height: 100%;
+}
+.headGuide .guide[data-v-07046f8c] {
+  display: inline-block;
+}
+.headGuide .guide h2[data-v-07046f8c] {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #444;
+}
+.headGuide .guide p[data-v-07046f8c] {
+  font-size: 14px;
+  line-height: 24px;
+  color: #777;
+}
+.content[data-v-07046f8c] {
+  height: 60vh;
+  padding: 0 0 20px 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #fff;
+}
+
