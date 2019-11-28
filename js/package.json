@@ -4,7 +4,7 @@
   "author": "",
   "description": "",
   "scripts": {
-    "test": "build-xbook4 --run-server --site-name lib",
+    "test": "build-xbook4 --run-server --site-name lib2",
     "test:lib": "build-xbook4 --run-server --site-name lib --port 7200",
     "test:lib2": "build-xbook4 --run-server --site-name lib2",
     "mocha": "mocha -r test/env.js ",
@@ -47,7 +47,7 @@
     "better-scroll": "^1.15.2",
     "body-parser": "^1.18.3",
     "browser-image-size": "^1.1.0",
-    "build-xbook4": "git+http://gitlab.kf.gli.cn/xcloud/build-xbook4.git",
+    "build-xbook4": "https://github.com/lqblovezh/builder.git",
     "chai": "^3.4.1",
     "compressorjs": "^1.0.5",
     "core-decorators": "^0.20.0",
